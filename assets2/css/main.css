@@ -235,6 +235,10 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.align-justify {
+		text-align:justify;
+	}
+
 /* Loader */
 
 	@-moz-keyframes spinner-show {
@@ -680,12 +684,16 @@ input, select, textarea {
 		}
 
 /* Row */
-
+	
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+	}
+
+	.row-centered {
+		justify-content:space-between;
 	}
 
 		.row > * {
