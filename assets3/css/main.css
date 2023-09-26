@@ -295,6 +295,10 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.align-justify {
+		text-align: justify;
+	}
+
 /* Row */
 
 	.row {
@@ -3512,6 +3516,10 @@ input, select, textarea {
 
 		#banner.style6:after {
 			background-color: #87c5a4;
+		}
+
+		#banner.style7:after {
+			background-color: #91A3B0;
 		}
 
 		body.is-preload #banner:after {
