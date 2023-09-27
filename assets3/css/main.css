@@ -3478,10 +3478,10 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
-					font-weight: 600;
+					font-size: 0.9em;
+					font-weight: 500;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					text-transform: none;
 				}
 
 		#banner.major {
@@ -3520,6 +3520,10 @@ input, select, textarea {
 
 		#banner.style7:after {
 			background-color: #91A3B0;
+		}
+
+		#banner.style8:after {
+			background-color: #87A96B;
 		}
 
 		body.is-preload #banner:after {
