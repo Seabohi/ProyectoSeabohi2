@@ -2572,6 +2572,28 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+		.video-thumb {
+			background-position: center;
+			background-repeat: repeat;
+			background-size: cover;
+			line-height: 0;	
+		}	
+		.a-residencial {
+			background-image: url("../../images/proyectos/captura1.png");
+			
+		}
+		.a-comercial {
+			background-image: url("../../images/proyectos/captura2.png");
+
+		}
+		.a-cultural {
+			background-image: url("../../images/proyectos/captura3.png");
+
+		}
+		.a-mobiliario {
+			background-image: url("../../images/proyectos/captura4.png");
+			
+		}
 
 /* Header */
 
