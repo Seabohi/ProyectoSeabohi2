@@ -2159,9 +2159,9 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		padding-left: 0;
 	}
 
 		ul li {
@@ -2254,7 +2254,12 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 0 39em;
+			vertical-align: middle;
+		}
+
+		ul.actions2 li {
+			padding: 0 0 0 0em;
 			vertical-align: middle;
 		}
 
